@@ -1,6 +1,42 @@
 [
-    {
-        "id": 1,
-        "name": "Product-1"
-    }
+  {
+    "id": 1,
+    "name": "Samsung Galaxy A55 5G",
+    "category": "Smartphone",
+    "price": 45999,
+    "brand": "Samsung",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Apple AirPods Pro 2",
+    "category": "Wireless Earbuds",
+    "price": 32999,
+    "brand": "Apple",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Dell Inspiron 15",
+    "category": "Laptop",
+    "price": 78500,
+    "brand": "Dell",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Sony WH-1000XM5",
+    "category": "Headphones",
+    "price": 44999,
+    "brand": "Sony",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Logitech MX Master 3S",
+    "category": "Mouse",
+    "price": 12999,
+    "brand": "Logitech",
+    "inStock": true
+  }
 ]
