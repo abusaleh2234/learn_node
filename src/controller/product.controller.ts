@@ -40,5 +40,28 @@ export const productsController = async (req: IncomingMessage, res: ServerRespon
             message: "This is Create Product",
             data: newProduct
         }))
+    } else if (method === "PUT" && id !== null) {
+        const body = await parseBody(req)
+        const products = readProducts()
+        const index = products.findIndex((p: Product) => p.id === id)
+        console.log(index);
+
+        if (index < 0) {
+            res.writeHead(404, { "content-Type": "application/json" })
+            res.end(JSON.stringify({
+                message: "Product not Found",
+                data: null
+            }))
+        }
+
+        // console.log(products[index]);
+        products[index] = {id: products[index].id , ...body}
+        insertProduct(products)
+        res.writeHead(200, { "content-Type": "application/json" })
+        res.end(JSON.stringify({
+            message: "Product Updated",
+            data: products[index]
+        }))
+
     }
 }
