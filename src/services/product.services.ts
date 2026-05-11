@@ -10,7 +10,7 @@ export const readProducts = () => {
 }
 
 export const insertProduct = (payload: any) => {
-    console.log(JSON.stringify(payload));
+    // console.log(JSON.stringify(payload));
     
     fs.writeFileSync(filepath, JSON.stringify(payload) )
 }

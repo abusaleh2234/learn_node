@@ -8,14 +8,6 @@
     "inStock": true
   },
   {
-    "id": 2,
-    "name": "Apple AirPods Pro 2",
-    "category": "Wireless Earbuds",
-    "price": 32999,
-    "brand": "Apple",
-    "inStock": true
-  },
-  {
     "id": 3,
     "name": "Dell Inspiron 15",
     "category": "Laptop",
@@ -38,10 +30,5 @@
     "price": 12999,
     "brand": "Logitech",
     "inStock": true
-  },
-  {
-    "id": 1778508016746,
-    "name": "IPhone 1210",
-    "brand": "Apple"
   }
 ]
