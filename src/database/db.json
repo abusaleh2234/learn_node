@@ -38,5 +38,10 @@
     "price": 12999,
     "brand": "Logitech",
     "inStock": true
+  },
+  {
+    "id": 1778508016746,
+    "name": "IPhone 1210",
+    "brand": "Apple"
   }
 ]
